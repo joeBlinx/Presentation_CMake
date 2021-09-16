@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  sandbox:
+    image: "joeblinx/cmake_pres:latest"
+    build: docker
+    volumes:
+      - ./app:/home/cmake_user/code
